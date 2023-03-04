@@ -1,4 +1,11 @@
 import pandas as pd
 import numpy as np
+import pathlib
 
-print('testing')
+PATH = pathlib.Path(__file__).parent
+DDIR = PATH / "Dataset"
+
+df = pd.read_csv(f'{DDIR}/Telco-Customer-Churn.csv')
+
+
+print(DDIR)
