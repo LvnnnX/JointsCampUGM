@@ -7,5 +7,7 @@ DDIR = PATH / "Dataset"
 
 df = pd.read_csv(f'{DDIR}/Telco-Customer-Churn.csv')
 
+CWD = pathlib.Path.cwd()
+print(CWD)
 
 print(DDIR)
