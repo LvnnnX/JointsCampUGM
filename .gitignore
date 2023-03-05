@@ -5,6 +5,7 @@ __pycache__/
 
 #Testing sources
 test.py
+*.pptx
 
 # C extensions
 *.so
